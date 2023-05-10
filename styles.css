@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(212, 45%, 89%);
+  width: 100%;
+  height: 100%;
+}
+
+.outter-box {
+  height: 40rem;
+  width: 25rem;
+  border-radius: 25px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img {
+  height: 23rem;
+  width: 23rem;
+  border-radius: 20px;
+}
+
+.first-text {
+  font-size: 1.8rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+.second-text {
+  font-size: 1.1rem;
+  color: hsl(212, 14%, 73%);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(-1.2%);
+}
+@media screen and (max-width: 940px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 250px) {
+  html {
+    font-size: 8px;
+  }
+}
