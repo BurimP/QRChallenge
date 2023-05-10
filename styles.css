@@ -60,11 +60,6 @@ body {
   align-items: center;
   transform: translateY(-1.2%);
 }
-@media screen and (min-width: 940px) {
-  html {
-    font-size: 7px;
-  }
-}
 
 @media screen and (max-width: 940px) {
   html {
